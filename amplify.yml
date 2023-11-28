@@ -18,9 +18,9 @@ frontend:
       - node_modules/**/*
 test:
   phases:
-      test:
-        commands:
-          - npm run test-ci  
+    test:
+      commands:
+        - npm run test-ci
   artifacts:
     baseDirectory: /dist/
     files:
