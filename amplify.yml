@@ -9,7 +9,7 @@ frontend:
     build:
       commands:
         - npm run build
-    Test:
+    postBuild:
       commands:
         - npm run test-ci
   artifacts:
